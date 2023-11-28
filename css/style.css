@@ -1,0 +1,117 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6e6e6;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.auth-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.field span {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  width: calc(100% - 16px);
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+.add-btn {
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #2980b9;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.contact-card {
+  background-color: #fafafa;
+  width: 220px;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+
+.contact-card:hover {
+  transform: scale(1.05);
+}
+
+.contact-card strong {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.contact-card p {
+  margin: 0;
+  color: #777;
+}
+
+.contact-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+
+.delete-btn,
+.edit-btn {
+  background-color: #2980b9;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.delete-btn:hover,
+.edit-btn:hover {
+  background-color: #c0392b;
+}
